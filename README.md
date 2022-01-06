@@ -73,3 +73,6 @@ NAME_OF_DATABASE is the name of database you have just created. This command wil
 
 Work with Heroku database:\
 The pgAdmin GUI allows you to interact with the PostreSQL database server. Launch the pgAdmin application from Windows start menu.
+
+
+![alt text](https://github.com/DenOez/musicandwellbeing/blob/b0b91533ac012b92be4cc898ad7d7ca4bef25c57/instruction1.jpg)
