@@ -1,0 +1,40 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% import "bootstrap/fixes.html" as fixes %}
+
+{%block head%}
+        {{super()}}
+    <link rel="stylesheet"
+          type=text/css
+          href="{{url_for('.static', filename='style.css')}}">
+    <br>
+    <br>
+    <br>
+
+    <div class="images" align="center">
+    <img width:30px class="img-hsd" src="{{url_for('static', filename='HSD_Marke3.png')}}" />
+
+    </div>
+{%endblock%}
+{%block content%}
+
+    <br>
+    <br>
+
+
+    <h1>Music is an essential part of everyday life for many people.<br>
+        The way people listen to music is very individual and therefore music has different purposes depending on the situation, place and time.<br>
+        Music can be used as a tool to regulate and manage emotions. Listening to music has the ability to reduce stress, to create positive emotions or to increase physical performance.<br>
+        <br>
+        Our web application is analyzing music listening habits of Spotify users. During this process the application analyses the most<br>
+        recent 50 tracks played by Spotify users, related to different factors such as danceability, instrumentalness, energy, acousticness,<br>
+        pitch, tempo and other indicators. With these information we intent to find correlation between music listening habits and human well-being.<br>
+        <br>
+
+        <button onclick="window.location.href='/login'">Next</button>
+
+    </h1>
+
+    <br><br>
+
+{%endblock%}

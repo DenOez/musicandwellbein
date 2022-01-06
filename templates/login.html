@@ -1,0 +1,50 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% import "bootstrap/fixes.html" as fixes %}
+
+
+{%block head%}
+        {{super()}}
+    <link rel="stylesheet"
+          type=text/css
+          href="{{url_for('.static', filename='style.css')}}">
+
+    <br>
+    <br>
+    <br>
+
+    <div class="images" align="center">
+    <img width:30px class="img-hsd" src="{{url_for('static', filename='HSD_Marke3.png')}}" />
+    </div>
+
+
+{%endblock%}
+{%block content%}
+
+    <br>
+    <br>
+    <br>
+
+    <h1>You can help us find answers on this subject in 2 steps:<br>
+        <br>
+        Step 1: Allow Spotify to send us information about your music listening habits<br>
+        <br>
+        Step 2: Participate in a survey, which takes about 10 minutes<br>
+        <br>
+        All infomation that we receive from Spotify will be treated confidentially and completely anonymously.<br>
+        By clicking on the link below you will be redirected to Spotify, where you can login with your Spotify account.<br>
+        With your login you allow Spotify to send us information about your music listening habits. You can be sure,
+        that no other information will be send to us.<br>
+        <br>
+        After that you will receive a personal code from us, which you need to enter just before beginning the survey.<br>
+        Please, don’t forget to note this code somewhere, otherwise we will not be able to identify which data<br>
+        belong to which survey.<br>
+        <br>
+        <button onclick="window.location.href='https://accounts.spotify.com/authorize?response_type=code&client_id=ccf6732311f54201b146e57cf26cd924&scope=user-read-recently-played&redirect_uri=https%3A%2F%2Fmusicandwellbeing2021.herokuapp.com%2Fcallback&show_dialog=true';">Link</button>
+
+    </h1>
+
+
+
+{%endblock%}
+

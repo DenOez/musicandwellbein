@@ -1,0 +1,48 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% import "bootstrap/fixes.html" as fixes %}
+
+
+{%block head%}
+        {{super()}}
+    <link rel="stylesheet"
+          type=text/css
+          href="{{url_for('.static', filename='style.css')}}">
+
+    <br>
+    <br>
+    <br>
+
+    <div class="images" align="center">
+    <img width:30px class="img-hsd" src="{{url_for('static', filename='HSD_Marke3.png')}}" />
+    </div>
+
+
+{%endblock%}
+{%block content%}
+
+    <br>
+    <br>
+    <br>
+
+    <h1>
+        <br>
+        <br>
+        <br>
+
+        Thank you for your trust!<br>
+        <br>
+        Our application will analyse your music listening habits once you have completed the following survey.<br>
+        With the link below you can step over to the questionnaire.<br>
+        <br>
+        This is your code: {{ value }}<br>
+        <br>
+        Important: Please note this code somewhere. You need to enter it on the next page.<br>
+        <br>
+
+        <button onclick="window.location.href='https://hs-duesseldorf.de/';">Go to survey</button>
+    </h1>
+
+
+
+{%endblock%}
