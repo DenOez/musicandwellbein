@@ -28,7 +28,7 @@ https://www.postgresql.org/download
 
 **Step 3: Preparing environment**
 
-Before you can deploy the web application to Heroku, you need to prepare the environment. For that, create a new project folder for your application and copy all files of this application in this folder. Then install a virtual environment with some libraries. Declare the process type and the starting point of your application in a Procfile. After installing all libraries save the dependencies in a requirements.txt file:
+Before you can deploy the web application to Heroku, you need to prepare the environment. For that, create a new project folder for your application and **copy all files of this application** in this folder. Then install a virtual environment with some libraries. Declare the process type and the starting point of your application in a Procfile. After installing all libraries save the dependencies in a requirements.txt file:
 
 $ cd project-folder\
 $ py -m venv venv\
@@ -90,15 +90,15 @@ The pgAdmin GUI allows you to interact with the PostreSQL database server. Launc
 
 ![alt text](https://github.com/DenOez/musicandwellbeing/blob/b0b91533ac012b92be4cc898ad7d7ca4bef25c57/instruction1.jpg)
 
-Then right-click the Servers node and select Create > Server… to create a server.
+Then right-click the Servers node and select **Create > Server…** to create a server.
 
 ![alt text](https://github.com/DenOez/musicandwellbeing/blob/b0b91533ac012b92be4cc898ad7d7ca4bef25c57/instruction2.jpg)
 
-Then enter a name for your server, host name/address, port, maintenance database, username, password and click the Save button:
+Then enter a name for your server, host name/address, port, maintenance database, username, password and click the **Save** button:
 
 ![alt text](https://github.com/DenOez/musicandwellbeing/blob/b0b91533ac012b92be4cc898ad7d7ca4bef25c57/instruction3.jpg)
 
-Now your database should be listed in your pgAdmin GUI on the left side. You can find your tables by clicking on NAME_OF_DATABASE > database > Schemas > Tables. After clicking on Databases we recommend to search for your Heroku database with Strg + F key combination. To view a table right-click the table and select View/Edit Data > All Rows. You can delete a table with Delete/Drop and with Truncate only the table content will be deleted.
+Now your database should be listed in your pgAdmin GUI on the left side. You can find your tables by clicking on **NAME_OF_DATABASE > database > Schemas > Tables**. After clicking on **Databases** we recommend to search for your Heroku database with **Strg + F** key combination. To view a table right-click the table and select **View/Edit Data > All Rows**. You can delete a table with **Delete/Drop** and with **Truncate** only the table content will be deleted.
 
 But by default there should be no tables available. To create a tables follow the instructions in step 6.
 
@@ -127,7 +127,7 @@ The URI we used in the login.html page looks like this:
     
     https%3A%2F%2Fmusicandwellbeing2021.herokuapp.com%2Fcallback
     
-Then go to Edit Settings in your Spotify application settings and enter the redirect URL of your application and don’t forget to save the settings.
+Then go to **Edit Settings** in your Spotify application settings and enter the redirect URL of your application and don’t forget to save the settings.
 
 The URL we used in Spotify settings looks like this:
 
