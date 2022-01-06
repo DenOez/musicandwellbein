@@ -30,7 +30,7 @@ def auth_refresh():
             }
 
             headers = {
-                "Authorization": "Basic Y2NmNjczMjMxMWY1NDIwMWIxNDZlNTdjZjI2Y2Q5MjQ6YTM0M2Y3YzIzMDI5NDI3Njg2NmVhNTIxNTY5NDdjNzY="
+                "Authorization": "Basic ... "
             }
 
             response_auth = requests.post(url, headers=headers, data=payload)
@@ -65,7 +65,7 @@ def auth_refresh():
                 "refresh_token": "{}".format(userEntry.refresh_token)
             }
             headers = {
-                "Authorization": "Basic Y2NmNjczMjMxMWY1NDIwMWIxNDZlNTdjZjI2Y2Q5MjQ6YTM0M2Y3YzIzMDI5NDI3Njg2NmVhNTIxNTY5NDdjNzY="
+                "Authorization": "Basic ... "
             }
 
             response_refresh = requests.post(url, headers=headers, data=payload)
