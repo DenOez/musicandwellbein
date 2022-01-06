@@ -7,9 +7,9 @@ import time
 #this script is pulling favorite tracks of spotify users
 #Application-Initializing
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://zoyicxbyiatpgo:96bb15667780ac3e33db09d5a09ceda71e7a723ff705d2d0659c87988bcdb713@ec2-54-247-71-245.eu-west-1.compute.amazonaws.com:5432/d53m4gmje27qqr'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres:// ... '
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['SECRET_KEY']='b49eeb10e86e4aa308d59ecde23d4c14'
+app.config['SECRET_KEY']=' Enter here the secret key '
 db = SQLAlchemy(app)
 
 
