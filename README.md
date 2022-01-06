@@ -16,10 +16,14 @@ As our application is written in Python you should download and install a new Py
 
 Links:
 
-https://www.python.org/downloads\
-https://www.jetbrains.com/pycharm/\
-https://git-scm.com/downloads\
-https://devcenter.heroku.com/articles/getting-started-with-python#set-up\
+https://www.python.org/downloads
+
+https://www.jetbrains.com/pycharm/
+
+https://git-scm.com/downloads
+
+https://devcenter.heroku.com/articles/getting-started-with-python#set-up
+
 https://www.postgresql.org/download
 
 **Step 3: Preparing environment**
