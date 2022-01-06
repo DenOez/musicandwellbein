@@ -21,13 +21,13 @@ limit_top_tracks = 50
 
 ENV = 'prod'
 if ENV == 'dev':
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://postgres:DJ625ffpg!@localhost:1080/auth_codes'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://postgres: ...'
 else:
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://wcsjlzdafuaqjn:f41ee927192bf7489d25d75f89e5117b7f3e8b08691dcf66ee01223bf2310c2c@ec2-52-21-153-207.compute-1.amazonaws.com:5432/dbbigmbi6vhm7'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:// ...'
 
 #settings for database and responsive web design
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['SECRET_KEY'] = 'b49eeb10e86e4aa308d59ecde23d4c14'
+app.config['SECRET_KEY'] = ' Enter here the secret key '
 db = SQLAlchemy(app)
 bootstrap=Bootstrap(app)
 
