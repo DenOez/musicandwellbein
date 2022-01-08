@@ -1,7 +1,7 @@
 # musicandwellbeing
 This project was done during my bachelor thesis. It's a web application that is collecting information of Spotify users with the help of the Spotify API. The main goal of this project was to discover correlaction between music listening habits of Spotify users and their well-being. For that I designed a survey that messures the personal well-being of the participants. So I was able to analyze the correlation between the results of the survey and the data that were collected by the web application. 
 
-Here istthe instruction, how to use the web-application:
+Here is the instruction, how to use the web-application:
 
 **Step 1: Spotify credentials**
 
@@ -66,7 +66,7 @@ $ heroku open
 
 There are two options to store data from your application in a database. First one is on your local machine and the second one is on a cloud-based database. Both options can be managed by the PostgreSQL GUI. In this tutorial we will show you how to use the PostgreSQL GUI to work with the cloud-based database. The standard convention to connect a SQLAlchemy database in your Flask-App looks like this:
 
-dialect://username:password@host:port/database
+    dialect://username:password@host:port/database
 
 To create a PostgreSQL database enter these commands in your CLI:
 
@@ -131,7 +131,7 @@ Then go to **Edit Settings** in your Spotify application settings and enter the 
 
 The URL we used in Spotify settings looks like this:
 
-  https://musicandwellbeing2021.herokuapp.com/callback
+    https://musicandwellbeing2021.herokuapp.com/callback
   
 3. Open the callback.html script in the templates folder. Enter the URL (in line 43) of the website you want the website visitor redirect to, after he clicks on the last button in your web-application.
 
