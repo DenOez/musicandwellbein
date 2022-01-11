@@ -1,5 +1,5 @@
 # musicandwellbeing
-This project was done during my bachelor thesis. It's a web application that is collecting information of Spotify users with the help of the Spotify API. The aim of this project was to investigate the correlaction between music listening habits of Spotify users and their personal well-being. For that I designed a survey to messure the personal well-being of the participants. Then I analyzed the correlation between the results of the survey and the data that were collected by the web application. 
+This project was done during my bachelor thesis. It's a web application that is collecting information of Spotify users with the help of the Spotify API. The aim of this project was to investigate the correlaction between music listening habits of Spotify users and their subjectiv well-being. For that I designed a survey to messure the personal well-being of the participants. Then I analyzed the correlation between the results of the survey and the data that I received from the web application. 
 
 Here is the instruction, how to use the web-application:
 
