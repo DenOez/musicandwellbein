@@ -41,7 +41,7 @@ $ pip install SQLAlchemy\
 $ pip install Flask_SQLAlchemy\
 $ pip install flask-Bootstrap\
 $ pip install psycopg2\
-& pip install requests\
+$ pip install requests\
 $ python -m pip install PyMySQL\
 $ pip freeze > requirements.txt
 
